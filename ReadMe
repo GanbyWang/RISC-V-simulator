@@ -1,0 +1,29 @@
+1. make
+
+'make' to compile
+'make clean' to remove *.d and *.o
+'make veryclean' to remove all compiled file
+
+
+
+2. run
+
+'chmod +x TestScript.sh' to set privilege
+'chmod 766 TestScript.sh' to set privilege
+'./TestScript.sh' to run program as ordered
+
+
+
+3. riscv-simulator
+
+riscv-simulator function is included in TestScript.sh.
+
+to run riscv-simulator only:
+
+1.'./riscv-simulator -r <file>' to run
+2.'./riscv-simulator -d <file>' to debug
+3.'./riscv-simulator -p <file>' to pace
+4.'./riscv-simulator -t <file>' to trace PC
+5.'./riscv-simulator -c <file>' to count for the top 10 instructions
+
+in debug mode: 'h' to see help
