@@ -1,3 +1,7 @@
+This is a simulator of RISC-V
+The program is written in C++ to execute RISC-V assembly files
+A project for Lab on Computer Organization and architecture course
+
 1. make
 
 'make' to compile
